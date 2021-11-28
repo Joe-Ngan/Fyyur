@@ -189,6 +189,7 @@ class ArtistForm(Form):
             ('WV', 'WV'),
             ('WI', 'WI'),
             ('WY', 'WY'),
+            ('Other', 'Other')
         ]
     )
     phone = StringField(
